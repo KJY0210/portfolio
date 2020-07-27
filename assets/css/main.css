@@ -458,7 +458,7 @@ form {
 }
 
 .f_row > .col-4 {
-    width: 33.33333%;
+    width: 50%;
 }
 
 .f_row > .off-4 {
@@ -5036,6 +5036,15 @@ video {
     background-position: center center;
 }
 
+#portfolioModal1-3 .video_bg {
+    width: 100%;
+    height: 700px;
+    background-image: url(../../images/pro3-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .site_btn {
     margin: 50px 0 100px 0;
     padding: 0;
@@ -5048,6 +5057,10 @@ video {
 
 #portfolioModal1-2 .site_btn {
     background-color: #55a9de;
+}
+
+#portfolioModal1-3 .site_btn {
+    background-color: #00a273;
 }
 
 .site_txt {
@@ -5065,6 +5078,10 @@ video {
 
 #portfolioModal1-2 .site_txt h5 {
     color: #55a9de;
+}
+
+#portfolioModal1-3 .site_txt h5 {
+    color: #00a273;
 }
 
 .site_txt > h5 {
@@ -5132,6 +5149,16 @@ video {
         width: 100%;
         height: 300px;
         background-image: url(../../images/pro2-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    #portfolioModal1-3 .video_bg {
+        width: 100%;
+        height: 300px;
+        background-image: url(../../images/pro3-2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
