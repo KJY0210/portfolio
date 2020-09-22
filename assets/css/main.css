@@ -2709,20 +2709,37 @@ ul.actions.special {
 .profile_bbox {
     float: left;
     width: 50%;
+    padding-top: 30px;
     padding-left: 70px;
 }
 
 .profile_b_lbox,
 .profile_b_rbox {
     padding-top: 20px;
-    width: 50%;
+    width: 100%;
     text-align: left;
 }
-
 .profile_b_rbox_p {
+    display: block;
     padding-left: 10px;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
+}
+    
+.profile_b_rbox_p_h{
+    display: none;
+    padding-left: 10px;
     font-size: 90%;
+}
+
+.profile_b_rbox_l {
+    float: left;
+    width: 45%;
+}
+
+.profile_b_rbox_r {
+    float: left;
+    width: 50%;
+    letter-spacing: -1px;
 }
 
 .profile_box:after {
@@ -2815,9 +2832,26 @@ ul.actions.special {
 
 
     .profile_b_rbox_p {
+        display: none;
+    }
+    
+    .profile_b_rbox_p_h {
+        display: block;
         padding-left: 0;
-        letter-spacing: -1px;
+        letter-spacing: -1.5px;
         font-size: 90%;
+    }
+    
+    .profile_b_rbox_l {
+        float: none;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .profile_b_rbox_r {
+        float: none;
+        width: 100%;
+        letter-spacing: 0;
     }
 }
 
