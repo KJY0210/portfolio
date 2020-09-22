@@ -188,6 +188,7 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
+    margin-bottom: 30px;
     background-color:#1a1c2d;
     border-color: rgba(51, 51, 51, 0.15);
 }
