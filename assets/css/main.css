@@ -5127,7 +5127,8 @@ video {
 }
 
 .site_rtxt p span,
-.site_rtxt_l p span {
+.site_rtxt_l p span,
+.site_ltxt p span{
     padding-right: 5px;
 }
 
