@@ -5243,12 +5243,9 @@ video {
 }
 
 #gallery .site_ltxt,
-#gallery .site_ltxt_w {
-    padding: 10% 5% 5%;
-}
-
-#gallery .site_btxt_l {
-    padding: 0 5% 5%;
+#gallery .site_ltxt_w,
+#gallery .site_btxt_l{
+    padding: 5% 5%;
 }
 
 #gallery .site_rtxt {
